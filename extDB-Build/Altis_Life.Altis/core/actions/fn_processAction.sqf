@@ -24,6 +24,8 @@ _itemInfo = switch (_type) do
 	case "cocaine": {["cocaine","cocainep",1500,(localize "STR_Process_Cocaine")];};
 	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
+	case "lsd": {["frog","lsd",400,(localize "STR_Process_LSD")];};
+	case "woodplank": {["wood","woodplank",210,(localize "STR_Process_Wood")];};
 	default {[];};
 };
 
@@ -36,7 +38,7 @@ _newItem = _itemInfo select 1;
 _cost = _itemInfo select 2;
 _upp = _itemInfo select 3;
 
-if(_vendor in [mari_processor,coke_processor,heroin_processor]) then {
+if(_vendor in [mari_processor,coke_processor,heroin_processor,lsd_processor]) then {
 	_hasLicense = true;
 } else {
 	_hasLicense = missionNamespace getVariable (([_type,0] call life_fnc_licenseType) select 0);

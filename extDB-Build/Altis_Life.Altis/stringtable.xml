@@ -3051,6 +3051,14 @@
 			<Italian>Eroina</Italian>
 			<Portuguese>Heroína</Portuguese>
 		</Key>
+		<Key ID="STR_Item_LSD">
+			<Original>LSD</Original>
+			<English>LSD</English>
+			<German>LSD</German>
+			<French>LSD</French>
+			<Italian>LSD</Italian>
+			<Portuguese>LSD</Portuguese>
+		</Key>
 		<Key ID="STR_Item_Oil">
 			<Original>Oil</Original>
 			<English>Oil</English>
@@ -3106,6 +3114,29 @@
 			<French>Héroine</French>
 			<Italian>Eroina processata</Italian>
 			<Portuguese>Heroína Processada</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Frog">
+			<Original>Frog</Original>
+			<English>Frog</English>
+			<German>Frosch</German>
+		</Key>
+		<Key ID="STR_Item_LSD">
+			<Original>LSD</Original>
+			<English>LSD</English>
+			<German>LSD</German>
+			<French>LSD</French>
+			<Italian>LSD</Italian>
+			<Portuguese>LSD</Portuguese>
+		</Key>
+		<Key ID="STR_Item_TreeLog">
+			<Original>Tree Log</Original>
+			<English>Tree Log</English>
+			<German>Baumstamm</German>
+		</Key>
+		<Key ID="STR_Item_Woodplank">
+			<Original>Wooden Plank</Original>
+			<English>Wooden Plank</English>
+			<German>Holzbretter</German>
 		</Key>
 		<Key ID="STR_Item_Marijuana">
 			<Original>Marijuana</Original>
@@ -3460,6 +3491,21 @@
 			<French>Transformation du Pavot</French>
 			<Italian>Processo Eroina</Italian>
 			<Portuguese>Treinamento de Heroina</Portuguese>
+		</Key>
+		<Key ID="STR_License_LSD">
+			<Original>LSD Training</Original>
+			<English>LSD Training</English>
+			<German>LSD herstellen</German>
+		</Key>
+		<Key ID="STR_License_BlackMarket">
+			<Original>Black Market Connections</Original>
+			<English>Black Market Connections</English>
+			<German>Schwarzmarktkontakte</German>
+		</Key>
+		<Key ID="STR_License_Wood">
+			<Original>Wood Processing</Original>
+			<English>Wood Processing</English>
+			<German>Holz verarbeiten</German>
 		</Key>
 		<Key ID="STR_License_Oil">
 			<Original>Oil Processing</Original>
@@ -3921,6 +3967,16 @@
 			<Italian>Processando Eroina</Italian>
 			<Portuguese>Processando Heroina</Portuguese>
 		</Key>
+		<Key ID="STR_Process_LSD">
+			<Original>Processing LSD</Original>
+			<English>Processing LSD</English>
+			<German>LSD wird hergestellt</German>
+		</Key>
+		<Key ID="STR_Process_Wood">
+			<Original>Processing Wood</Original>
+			<English>Processing Wood</English>
+			<German>Baumstämme werden zersägt</German>
+		</Key>
 		<Key ID="STR_Process_Copper">
 			<Original>Processing Copper</Original>
 			<English>Processing Copper</English>
@@ -4034,6 +4090,11 @@
 			<French>Récolter des graines de Pavot</French>
 			<Italian>Raccogli Eroina</Italian>
 			<Portuguese>Colher Heroina</Portuguese>
+		</Key>
+		<Key ID="STR_Gather_Frog">
+			<Original>Gather Frog</Original>
+			<English>Gather Frog</English>
+			<German>Frösche sammeln</German>
 		</Key>
 		<Key ID="STR_Gather_Cannabis">
 			<Original>Gather Cannabis</Original>

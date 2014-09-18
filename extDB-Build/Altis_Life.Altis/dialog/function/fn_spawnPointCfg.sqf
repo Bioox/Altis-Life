@@ -52,6 +52,16 @@ switch (_side) do
 			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
+	
+	case east: 
+	{
+		_return = [
+			["rebel_spawn_1","Panagia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["rebel_spawn_2","Agios Georgios","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["rebel_spawn_3","Zaros","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["rebel_spawn_4","Galati","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+	};
 };
 
 _return;

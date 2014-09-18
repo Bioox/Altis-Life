@@ -42,6 +42,7 @@ class Life_Client_Core
 		class initCiv {};
 		class initCop {};
 		class initMedic {};
+		class initRebel {};
 		class welcomeNotification {};
 	};
 	
@@ -53,6 +54,13 @@ class Life_Client_Core
 		class admingetID {};
 		class adminMenu {};
 		class adminQuery {};
+	};
+	
+	class Rebel
+	{
+		file = "core\rebel";
+		class rebelLoadout {};
+		class rebelMarkers {};
 	};
 	
 	class Medical_System
@@ -145,15 +153,23 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
-		
-		//Clothing Store Configs
-		class clothing_cop {};
-		class clothing_bruce {};
-		class clothing_reb {};
-		class clothing_dive {};
-		class clothing_kart {};
 	};
 
+	class Clothing_Shops
+	{		
+		file = "core\clothingShops";
+		class clothing_cop {};
+		class clothing_bruce {};
+		class clothing_illegalCiv {};
+		class clothing_medic {};
+		class clothing_reb {};
+		class clothing_dive {};
+		class clothing_reb_dive {};
+		class clothing_cop_dive {};
+		class clothing_kart {};	
+		class clothing_admin {};	
+	};
+	
 	class Player_Menu
 	{
 		file = "core\pmenu";

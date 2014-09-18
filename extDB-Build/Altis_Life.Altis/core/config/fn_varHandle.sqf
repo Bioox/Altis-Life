@@ -22,6 +22,10 @@ switch (_mode) do
 			case "heroinp": {"life_inv_heroinp"};
 			case "cannabis": {"life_inv_cannabis"};
 			case "marijuana": {"life_inv_marijuana"};
+			case "frog": {"life_inv_frog"};
+			case "lsd": {"life_inv_lsd"};
+			case "wood": {"life_inv_wood"};
+			case "woodplank": {"life_inv_woodplank"};
 			case "apple": {"life_inv_apple"};
 			case "water": {"life_inv_water"};
 			case "rabbit": {"life_inv_rabbit"};
@@ -40,6 +44,7 @@ switch (_mode) do
 			case "fuelF": {"life_inv_fuelF"};
 			case "money": {"life_cash"};
 			case "pickaxe": {"life_inv_pickaxe"};
+			case "axe": {"life_inv_axe"};
 			case "copperore": {"life_inv_copperore"};
 			case "ironore": {"life_inv_ironore"};
 			case "iron_r": {"life_inv_ironr"};
@@ -78,6 +83,10 @@ switch (_mode) do
 			case "life_inv_heroinp": {"heroinp"};
 			case "life_inv_cannabis": {"cannabis"};
 			case "life_inv_marijuana": {"marijuana"};
+			case "life_inv_frog": {"frog"};
+			case "life_inv_lsd": {"lsd"};
+			case "life_inv_wood": {"wood"};
+			case "life_inv_woodplank": {"woodplank"};
 			case "life_inv_apple": {"apple"};
 			case "life_inv_water": {"water"};
 			case "life_inv_rabbit": {"rabbit"};
@@ -96,6 +105,7 @@ switch (_mode) do
 			case "life_inv_fuelF": {"fuelF"};
 			case "life_cash": {"money"};
 			case "life_inv_pickaxe": {"pickaxe"};
+			case "life_inv_axe": {"axe"};
 			case "life_inv_copperore": {"copperore"};
 			case "life_inv_ironore": {"ironore"};
 			case "life_inv_ironr": {"iron_r"};
